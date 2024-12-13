@@ -18,6 +18,6 @@ public class MyController {
 	
 	@RequestMapping("api/user")
 	public String loginUser() {
-		return "Hello Buddy!";
+		return "This is the login user page";
 	}
 }
